@@ -1,0 +1,519 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    body {
+        font-family: 'GlacialIndifferenceRegular', monospace;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    .margen-interno {
+        margin: 0px 50px;
+    }
+    
+    .top-header {
+        display: flex;
+        flex-flow: row nowrap;
+        height: 100px;
+        align-items: center;
+    }
+    
+    .logo {
+        flex: 1 auto;
+        min-width: 100px;
+    }
+    
+    .logo img {
+        width: 300px;
+        height: 100px;
+        margin-left: -50px;
+    }
+    
+    .social {
+        display: flex;
+        flex: 5 auto;
+        justify-content: flex-end;
+    }
+    
+    .social a {
+        color: grey;
+        font-size: 1.7rem;
+        padding: 0 5px;
+    }
+    
+    .social a:hover {
+        color: black;
+        font-size: 1.9rem;
+    }
+    
+    .nav {
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        border-top: 0.5px solid rgba(212, 212, 212, 0.733);
+        padding-top: 8px;
+    }
+    
+    .nav a {
+        color: #949393;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 0 10px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .nav a:hover {
+        font-size: 1.1rem;
+    }
+    
+    .banner {
+        background: url(imagenes/banner1.jpg);
+        height: 200px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+    }
+    
+    h1 {
+        background-color: #FBDA01;
+        text-transform: uppercase;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        height: 300px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .navbar a {
+        display: flex;
+        text-transform: uppercase;
+        color: black;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navbar a:hover {
+        font-size: 25px;
+    }
+    
+    .navbar div:hover {
+        opacity: 0.5;
+    }
+    
+    .reseña-nav {
+        background-image: url(imagenes/receta1.jpg);
+        flex: 1 1 auto;
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        margin: 5px;
+        width: 300px;
+    }
+    
+    .receta-nav {
+        background-image: url(imagenes/reseña3.jpeg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        flex: 1 1 auto;
+        margin: 5px;
+        width: 300px;
+    }
+    
+    .tendencias-nav {
+        background-image: url(imagenes/reseña2.jpeg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        flex: 1 1 auto;
+        margin: 5px;
+        width: 300px;
+    }
+    
+    .main {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 50px;
+        margin-right: 20px;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    .article {
+        flex: 1 1 auto;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 20px 30px 0 0;
+    }
+    
+    .text-article {
+        flex: 2 1 auto;
+        letter-spacing: 1px;
+    }
+    
+    h3 {
+        font-size: 11px;
+    }
+    
+    h2 {
+        text-transform: uppercase;
+        color: #949393;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+    
+    .img-article img {
+        width: 100%;
+        height: 280px;
+        flex: 1 1 auto;
+    }
+    
+    .newsletter {
+        background-color: #f7f7f7;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .formulario {
+        text-align: center;
+        word-spacing: 2px;
+        margin-top: 20px;
+    }
+    
+    .footer {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        border-top: 0.5px solid rgba(212, 212, 212, 0.733);
+        padding-top: 10px;
+    }
+    
+    .logo-footer {
+        flex: 1 1 auto;
+    }
+    
+    .logo-footer img {
+        max-width: 200px;
+    }
+    
+    .text-footer {
+        flex: 3 1 auto;
+        text-align: center;
+        color: black;
+    }
+    
+    .social-footer {
+        display: flex;
+        flex: 1 1 auto;
+        justify-content: flex-end;
+    }
+    
+    .social-footer a {
+        text-align: right;
+        color: black;
+        margin-right: 5px;
+    }
+    
+    .social-footer a:hover {
+        color: #949393;
+    }
+    /* flexbox 2*/
+    
+    .banner-2 {
+        background: url(imagenes/baTendencia.jpeg);
+        height: 200px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+    }
+    /* Soy*/
+    
+    .banner-3 {
+        background: url(imagenes/baSoy.jpeg);
+        height: 200px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+    }
+    
+    .main-soy {
+        background-color: #f7f7f7;
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 50px;
+    }
+    
+    .text-soy {
+        flex: 3 1 auto;
+        margin: 50px;
+        padding: 20px;
+        text-align: justify;
+    }
+    
+    .text-soy p {
+        color: black;
+        word-spacing: 2px;
+    }
+    
+    .p2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img-soy {
+        flex: 1 1 auto;
+    }
+    
+    .img-soy img {
+        width: 200px;
+        height: 300px;
+        margin: 50px;
+    }
+    
+    .frame {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+    
+    iframe {
+        width: 400px;
+        height: 560px;
+        border: none;
+        outline: none;
+    }
+    /*/ flexbox 4*/
+    
+    .banner-4 {
+        background: url(imagenes/baModelo.jpeg);
+        height: 200px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+    
+    .main-section {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+    
+    .article-main {
+        flex: 5 1 auto;
+        display: flex;
+        flex-flow: column nowrap;
+        margin-top: 20px;
+    }
+    
+    .article-sec {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .article-sec>div {
+        margin-bottom: 20px;
+    }
+    
+    .img-article-f {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .img-article-f img {
+        width: auto;
+        height: 400px;
+    }
+    
+    .text-article-f {
+        margin-top: 5px;
+    }
+    
+    .others {
+        margin-left: 50px;
+        padding-left: 20px;
+        flex: 1 1 auto;
+        display: flex;
+        flex-flow: column nowrap;
+        border-left: 0.5px solid rgba(212, 212, 212, 0.733);
+    }
+    
+    .share {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    .buttoms {
+        flex: 1 1 auto;
+    }
+    
+    .socials {
+        flex: 3 1 auto;
+    }
+    /*Flexbox5*/
+    
+    .banner-5 {
+        background: url(imagenes/baReseña.jpg);
+        height: 200px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+    }
+    /*Flexbox-6*/
+    
+    .banner-6 {
+        background: url(imagenes/baReceta.jpeg);
+        height: 200px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+    }
+    
+    @media all and (max-width:768px) {
+        .main {
+            flex-direction: column;
+        }
+        .article {
+            align-items: center;
+        }
+        .text-article {
+            max-width: 75%;
+        }
+        .img-article img {
+            max-width: 400px;
+            min-width: 250px;
+        }
+        .input-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .footer {
+            font-size: 12px;
+        }
+        .text-footer {
+            margin-left: -20px;
+        }
+        .social-footer a {
+            display: flex;
+            margin-right: 5px;
+        }
+        .logo-footer img {
+            max-width: 130px;
+        }
+        .main-soy {
+            flex-direction: column;
+            margin: 20px;
+        }
+        .img-soy img {
+            margin: 20px;
+        }
+        .main-section {
+            display: flex;
+            flex-direction: column;
+        }
+        .others {
+            display: flex;
+            flex-direction: row;
+            border: none;
+            margin-left: 0px;
+        }
+    }
+    
+    @media all and (max-width:375px) {
+        .margen-interno {
+            margin: 0px 20px;
+        }
+        .nav a {
+            font-size: 11px;
+            letter-spacing: 0.5px;
+        }
+        .nav a:hover {
+            font-size: 0.9rem;
+        }
+        .navbar a {
+            max-width: 90px;
+            font-size: 12px;
+        }
+        .navbar a:hover {
+            font-size: 14px;
+        }
+        .article {
+            padding: 20px 0 0 0px;
+        }
+        .footer {
+            margin-top: 10px;
+        }
+        .footer div {
+            margin-right: 5px;
+        }
+        .logo-footer img {
+            max-width: 100px;
+        }
+        .text-footer {
+            margin-left: 0px;
+        }
+        .social-footer {
+            display: block;
+        }
+        .main-soy {
+            margin-top: 10px;
+        }
+        .text-soy {
+            height: auto;
+            text-align: unset;
+            margin: 10px;
+        }
+        iframe {
+            max-width: 300px;
+        }
+        .others {
+            display: flex;
+            flex-direction: column;
+            border: none;
+            margin-left: 0px;
+        }
+    }
